@@ -3,9 +3,9 @@
 
 #### Install Pupil Labs Pupil Core Desktop Software:
 
-	https://pupil-labs.com/products/core/
-	https://docs.pupil-labs.com/core/
-	Don't forget about the Plugin Manager->NetworkAPI on and ports match
+ - https://pupil-labs.com/products/core/
+ - https://docs.pupil-labs.com/core/
+ - Don't forget about the Plugin Manager->NetworkAPI on and ports match
 
 #### Install Python Environment:
 ##### Install miniconda
