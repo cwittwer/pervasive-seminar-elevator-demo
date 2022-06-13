@@ -14,26 +14,26 @@
 
 ##### Create the environment: 
 
-	conda env create -f environment.yaml
+		conda env create -f environment.yaml
 
 ##### Activate the conda environment:
 
-	conda activate elevator
+		conda activate elevator
 
 ##### To be safe with OpenCV install:
 
-	pip uninstall opencv-python-headless
-	pip install opencv-python
+		pip uninstall opencv-python-headless
+		pip install opencv-python
 
 ##### EasyOCR is dependent on pytorch, so install first:
 
-	conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
+		conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 
  - https://pytorch.org/get-started/locally/
 
 ##### Then install EasyOCR:
 
-	Run conda cmd: pip install easyocr
+		Run conda cmd: pip install easyocr
 
  - https://github.com/JaidedAI/EasyOCR#installation
 
@@ -53,11 +53,11 @@
 
  - https://github.com/qt-labs/qtquickdesigner-components/blob/dev/REAMDE.md
 
-	mkdir build
-	cd build
-	cmake -GNinja -DCMAKE_INSTALL_PREFIX=path_to_qt_install_directory path_to_qtquickdesigner-components_cmake
-	cmake --build .
-	cmake --install .
+		mkdir build
+		cd build
+		cmake -GNinja -DCMAKE_INSTALL_PREFIX=path_to_qt_install_directory path_to_qtquickdesigner-components_cmake
+		cmake --build .
+		cmake --install .
 
 #### Open Project in Qt Creator:
 
